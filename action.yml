@@ -1,0 +1,16 @@
+name: Release Ansible Collection
+description: Release Ansible Collection
+inputs:
+  action_input_1:
+    description: action_input_1
+    required: false
+
+runs:
+  using: composite
+  steps:
+    - name: step1 print SOMETHING
+      run: |
+        echo "SOMETHING"
+      shell: bash
+
+      
